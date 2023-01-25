@@ -1,5 +1,5 @@
 body {
-  background-color: #011F3F;
+  background-color: #0952a0;
   text-align: center;
 }
 
@@ -9,7 +9,12 @@ body {
   margin:  5%;
   color: #FEF2BF;
 }
-
+#level-maintitle{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.24rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
 .container {
   display: flex;
   justify-content: center;
@@ -23,10 +28,15 @@ body {
   margin: 4px;
   display: inline-block;
   border-radius: 5%;
-  font-size: 7rem;
+  width: 10rem;
   cursor: pointer;
   background-color: white;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btn > img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .game-over {
